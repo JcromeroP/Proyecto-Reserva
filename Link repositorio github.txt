@@ -1,0 +1,24 @@
+https://github.com/JcromeroP/Proyecto-Reserva.git
+
+
+
+Crear la base de datos
+
+CREATE DATABASE reserva_hotel;
+
+USE reserva_hotel;
+
+
+Crear la tabla empleado
+
+CREATE TABLE Empleado (
+    idEmpleado INT PRIMARY KEY AUTO_INCREMENT,
+    dni VARCHAR(20),
+    nombres VARCHAR(100),
+    apellidos VARCHAR(100),
+    fecha_nac DATE,
+    direccion VARCHAR(200),
+    cargo VARCHAR(50),
+    usuario VARCHAR(50),
+    clave VARCHAR(100)
+);
